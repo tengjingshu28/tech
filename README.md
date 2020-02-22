@@ -1,3 +1,3 @@
 Test
 
-![图片展示](\src\img\2.jpg)
+![图片展示](\\src\img\2.jpg)
