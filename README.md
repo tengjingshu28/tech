@@ -1,3 +1,3 @@
 Test
 
-![图片展示](https://github.com/tengjingshu28/tech/blob/master/src/img/2.jpg)
+![图片展示](https://github.com/tengjingshu28/tech/tree/master/src/img/2.jpg)
