@@ -1,5 +1,6 @@
 数据结构
-DataStructure/二叉树(BTree).md
+
+[二叉树(BTree)]: DataStructure/二叉树(BTree).md
 
 Test
 
