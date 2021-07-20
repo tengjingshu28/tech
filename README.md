@@ -5,6 +5,10 @@
     - [Collection_LinkedList](Java/collections/3_Collection_LinkedList.md)
     - [Collection_Stack_&_Queue](Java/collections/4_Collection_Stack_&_Queue.md)
     - [Collection_PriorityQueue](Java/collections/5_Collection_PriorityQueue.md)
+    - [Map_HashMap&HashSet](Java/collections/6_Map_HashMap&HashSet.md)
+    - [Map_LinkedHashSet&LinkedHashMap](Java/collections/7_Map_LinkedHashSet&LinkedHashMap.md)
+    - [Map_TreeSet&TreeMap](Java/collections/8_Map_TreeSet&TreeMap.md)
+    - [Map_WeakHashMap](Java/collections/9_Map_WeakHashMap.md)
   
 - 数据结构
   - [二叉树(BTree)](DataStructure/二叉树(BTree).md)
