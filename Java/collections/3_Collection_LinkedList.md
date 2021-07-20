@@ -8,7 +8,7 @@
 
 *LinkedList*同时实现了*List*接口和*Deque*接口，也就是说它既可以看作一个顺序容器，又可以看作一个队列(*Queue*)，同时又可以看作一个栈(*Stack*)。这样看来，*LinkedList*简直就是个全能冠军。当你需要使用栈或者队列时，可以考虑使用*LinkedList*，一方面是因为Java官方已经声明不建议使用*Stack*类，更遗憾的是，Java里根本没有一个叫做*Queue*的类(它是个接口名字)。关于栈或队列，现在的首选是*ArrayDeque*，它有着比*LinkedList*(当作栈或队列使用时)有着更好的性能。
 
-![](images/3_Collection_LinkedList源码解析/LinkedList_1.png)
+![](images/3_Collection_LinkedList/LinkedList_1.png)
 
 *LinkedList*的实现方式决定了所有跟下标相关的操作都是线性时间，而在首段或者末尾删除元素只需要常数时间。为追求效率*LinkedList*没有实现同步(synchronized)，如果需要多个线程并发访问，可以先采用`Collections.synchronizedList()`方法对其进行包装。
 
@@ -79,7 +79,7 @@ Node是内部私有的静态类
 
 add()方法有两个版本，一个是`add(E e)`，该方法在LinkedList的末尾插入元素，因为有`last`指向链表末尾，在末尾插入元素的花费是常数时间。只需要简单修改几个相关引用即可；另一个是`add(int index, E element)`，该方法是在指定下表处插入元素，需要先通过线性查找找到具体位置，然后修改相关引用完成插入操作。
 
-![](images/3_Collection_LinkedList源码解析/LinkedList_2.png)
+![](images/3_Collection_LinkedList/LinkedList_2.png)
 
 ### add(E e)
 
@@ -162,7 +162,7 @@ add()方法有两个版本，一个是`add(E e)`，该方法在LinkedList的末�
 
 `remove()`方法也有两个版本，一个是删除跟指定元素相等的第一个元素`remove(Object o)`，另一个是删除指定下标处的元素`remove(int index)`。
 
-![](images/3_Collection_LinkedList源码解析/LinkedList_3.png)
+![](images/3_Collection_LinkedList/LinkedList_3.png)
 
 两个删除操作都要
 
