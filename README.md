@@ -12,10 +12,10 @@
     - [Collection_Stack_&_Queue](Java/collections/4_Collection_Stack_&_Queue.md)
     - [Collection_PriorityQueue](Java/collections/5_Collection_PriorityQueue.md)
     - [Map_HashMap&HashSet](Java/collections/6_Map_HashMap&HashSet.md)
-    - [Map_LinkedHashSet&LinkedHashMap](Java/collections/7_Map_LinkedHashSet&LinkedHashMap.md)
-    - [Map_TreeSet&TreeMap](Java/collections/8_Map_TreeSet&TreeMap.md)
-    - [Map_WeakHashMap](Java/collections/9_Map_WeakHashMap.md)
-    - [Map_ConcurrentHashMap](Java/collections/10_Map_ConcurrentHashMap.md)
+    - [Map_LinkedHashSet&LinkedHashMap-未完成](Java/collections/7_Map_LinkedHashSet&LinkedHashMap.md)
+    - [Map_TreeSet&TreeMap-未完成](Java/collections/8_Map_TreeSet&TreeMap.md)
+    - [Map_WeakHashMap-未完成](Java/collections/9_Map_WeakHashMap.md)
+    - [Map_ConcurrentHashMap-未完成](Java/collections/10_Map_ConcurrentHashMap.md)
   - Java 并发
   - Java IO/NIO/AIO
   - JVM
@@ -34,6 +34,9 @@
 - 数据结构
   - [二叉树(BTree)](DataStructure/二叉树(BTree).md)
 
+- 算法
+  - [LRU(Least recently used)](Algorithm/LRU.md)
+  
 - 方法论
   - [康威定律 - 微服务基础](Methodology/康威定律.md)
 
