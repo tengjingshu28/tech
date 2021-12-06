@@ -42,8 +42,8 @@
     - [入门-数据类型-Stream详解](Database/Redis/4_入门-数据类型-Stream详解.md)
     - [进阶-数据结构-对象机制详解](Database/Redis/5_进阶-数据结构-对象机制详解.md)
     - [进阶-数据结构-底层数据结构详解](Database/Redis/6_进阶-数据结构-底层数据结构详解.md)
-    - 进阶-数据结构-Redis对象与编码(底层结构)对应关系
-    - 进阶-持久化-RDB和AOF机制详解
+    - [进阶-数据结构-Redis对象与编码(底层结构)对应关系](Database/Redis/7_进阶-数据结构-Redis对象与编码(底层结构)对应关系.md)
+    - [进阶-持久化-RDB和AOF机制详解](Database/Redis/8_进阶-持久化-RDB和AOF机制详解.md)
     - 进阶-消息传递-发布订阅模式详解
     - 进阶-事件-Redis事件机制详解
     - 进阶-事务-Redis事务详解
