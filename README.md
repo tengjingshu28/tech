@@ -32,8 +32,9 @@
     - JDK16
 - 数据结构
   - [二叉树(BTree)](DataStructure/二叉树(BTree).md)
-- 算法
+- 算法 - 未完成
   - [LRU(Least recently used)](Algorithm/LRU.md)
+  - [布隆过滤器(Bloomfilter)](Algorithm/Bloomfilter.md)
 - 数据库
   - Redis
     - [入门-Redis概念和基础](Database/Redis/1_入门-Redis概念和基础.md)
@@ -50,7 +51,7 @@
     - 进阶-高可用-组从复制详解
     - 进阶-高可用-哨兵机制(Redis Sentinel)详解
     - 进阶-高可拓展-分片技术(Redis Cluster)详解
-    - 进阶-缓存问题-一致性，穿击，穿透，雪崩，污染
+    - [进阶-缓存问题-一致性，穿击，穿透，雪崩，污染](Database/Redis/15_进阶-缓存问题-一致性-穿击-穿透-雪崩-污染)
     - 进阶-版本特性-Redis4.0, Redis5.0, Redis6.0
     - 进阶-运维监控-Redis的监控详解
     - 进阶-性能调优-Redis性能调优详解
