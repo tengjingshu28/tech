@@ -20,7 +20,8 @@
   - Java IO/NIO/AIO
   - JVM
     - 字节码
-    - [ClassLoader](Java/JVM/ClassLoader.md)
+    - [Java_类加载机制](Java/JVM/Java_类加载机制.md)
+    - [JVM内存结构](Java/JVM/JVM内存结构.md)
   - JDK新特性
     - JDK8
       - Lambda
