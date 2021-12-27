@@ -27,6 +27,7 @@
     - [Java_垃圾回收基础](Java/JVM/Java_垃圾回收基础.md)
     - [Java_垃圾回收器G1详解](Java/JVM/Java_垃圾回收器G1详解.md)
     - [JIT](https://blog.csdn.net/shenwansangz/article/details/95601232)
+    - [AQS](https://www.cnblogs.com/xuxh120/p/15721553.html)
   - JDK新特性
     - JDK8
       - Lambda
